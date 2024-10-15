@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Start</title>
+
+    <style>
+        body {
+            background-image: url(back.jpg);
+            background-repeat: no-repeat;
+
+        }
+
+        header {
+            margin-top: 30px;
+            text-align: center;
+            color: blue;
+            font-size: xx-large;
+            font-weight: bolder;
+            text-decoration: underline;
+
+        }
+
+        a {
+            text-decoration: none;
+            padding: 20px;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        nav {
+            background-color: lightblue;
+            padding: 20px;
+            border: 3px solid black;
+            border-radius: 20px;
+        }
+         .Services{
+            display: flex;
+            flex-flow: wrap;
+
+        } 
+        .Service-card{
+            background-color: lightblue;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 40px;
+            padding-left: 40px;
+            width: 500px;
+           
+        }
+        footer {
+            background-color: lightblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            height: 20%;
+        }
+        
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        Tech Start
+    </header>
+    <nav>
+        <a  href="#Home">Home</a>
+        <a  href="#About">About</a>
+        <a  href="#Services">Services</a>
+        <a  href="#Contact">Contact</a>
+
+    </nav>
+
+    <div class="main" id="Home">
+
+        <section class="about" id="About">
+            <h2>About Us:</h2>
+            <p><b>"Tech Start"</b> typically refers to the early stages of a technology-focused startup, where
+                innovative ideas
+                are transformed into viable products or services. This phase involves market research, product
+                development, and often securing funding. The goal is to establish a business model that can scale,
+                leveraging technology to address specific market needs and challenges. Key aspects include agility,
+                adaptability, and a focus on customer feedback.</p>
+
+        </section>
+
+        <section class="Services" id="Services">
+            <h2>Our Services:</h2>
+            <div class="Service-card">
+                <h2>Web Development:</h2>
+                <p>  Designing and maintaining websites and online platforms</p>
+            </div>
+            <div class="Service-card" >
+                <h2>Software Development:</h2>
+                <p> Creating custom applications and software solutions tailored to specific needs</p>
+            </div>
+            <div class="Service-card" >
+                <h2>Digital Marketing Services:</h2>
+                <p>  Utilizing technology to enhance marketing efforts, including SEO, social media marketing, and content management systems</p>
+            </div>
+            <div class="Service-card" >
+                <h2>Mobile App Development:</h2>
+                <p> Creating applications for mobile devices, tailored to specific platforms like iOS and Android</p>
+            </div>
+         
+
+        </section>
+        <section class="contact" id="Contact">
+
+        </section>
+        <hr>
+        <footer>
+            <p>© 2024 TechStart. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="insta.png" alt="" width="50px" height="50px">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="fb.png" alt="" width="50px" height="50px">
+                </a>
+                <a href="https://x.com/" target="_blank">
+                    <img src="x.png" alt="" width="50px" height="50px">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+</html>
