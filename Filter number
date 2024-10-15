@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+</head>
+<body>
+    <h2>Filter Even Numbers</h2>
+    
+        <label for="numbers">Enter Numbers:</label>
+        <input type="text" id="numbers" placeholder="e.g., 11,2,3,4">
+        <button onclick="filterEvenNumbers()">Filter</button>
+    <p>Even Numbers are:</p>
+    <p id="result"></p>
+
+
+    <script>
+        function filterEvenNumbers() {
+            const input = document.getElementById('numbers').value;
+            const evenNumbers = input.split(',')
+                .map(Number)
+                .filter(num => num % 2 === 0);
+            document.getElementById('result').textContent = evenNumbers.join(', ');
+        }
+    </script>
+</body>
+</html>
